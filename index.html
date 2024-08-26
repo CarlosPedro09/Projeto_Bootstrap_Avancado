@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Bootstrap</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Metallica</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#historia">História da Banda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#albuns">Álbuns</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+        <div class="container">
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="d-block w-100" src="images/metallica_título_p.jpg"/>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="images/metallica_conteudo.webp"/>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="images/metallica_conteudo_2.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="historia">
+            <h2>História da Banda</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="card product">
+                        <div class="card-header">
+                            <strong>Uma das Maiores Bandas de Rock!!!</strong>
+                        </div>
+                        <img src="images/metallica orquestra.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Sobre</strong></h4>
+                            <p>Falar de bandas de Rock pesado e não citar Metallica é uma tarefa dificil, principalmente tendo em vista o que essa banda ja representou no cenário dela, fundada por Larz Ulrich e James Hetfield no ano de 1981 em Los Angeles na Califórnia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="albuns">
+            <h2>Álbuns</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Kill'Em All</strong>
+                            </div>
+                            <img src="images/metallica album.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Informações</strong></h4>
+                                <p class="card-text">Álbum lançado no ano de 1983</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Ride the lightning</strong>
+                            </div>
+                            <img src="images/metallica album 4.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Informações</strong></h4>
+                                <p class="card-text">Álbum lançado no ano de 1984</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Master of Puppets</strong>
+                            </div>
+                            <img src="images/metallica_-_master_of_puppets.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Informações</strong></h4>
+                                <p class="card-text">Álbum lançado no ano de 1986</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>...And JUstice for All</strong>
+                            </div>
+                            <img src="images/metallica album 3.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Informações</strong></h4>
+                                <p class="card-text">Álbum lançado no ano de 1988</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Metallica</strong>
+                            </div>
+                            <img src="images/metallica album 2.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Informações</strong></h4>
+                                <p class="card-text">Álbum lançado no ano de 1991</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card product">
+                            <div class="card-header">
+                                <strong>Death Magnetic</strong>
+                            </div>
+                            <img src="images/album 6.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Informações</strong></h4>
+                                <p class="card-text">Álbum lançado no ano de 2008</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; Todos os Direitos Reservados - @carlospedro09
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

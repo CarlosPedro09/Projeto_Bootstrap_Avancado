@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input, textarea {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #272c75;
+    color: #131313;
+}
+
+.container{
+    max-width: 1054px;
+}
+
+header{
+    background-color: #272c75;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 8px;
+}
+
+.nav-link{
+    color: #131313;
+}
+
+.nav-link:hover{
+    color: #050505;
+}
+
+.carousel{
+    margin-top: 24px;
+}
+
+section{
+    padding: 5rem 0;
+    
+}
+
+
+section h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product {
+    margin-top: 2rem;
+}
+
+.card{
+    max-width: 100%;
+}
+
+.card img{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.card-body h4{
+    text-align: center;
+    padding: 12px;
+}
+
+.card-footer button{
+    width: 100%;
+} 
+
+
+
+footer{
+    background-color: #273c75;
+    padding: 24px;
+    font-size: 1.5rem;
+    text-align: center;
+}
